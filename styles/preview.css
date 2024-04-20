@@ -1,0 +1,32 @@
+/* Images */
+.preview-img{
+    position: relative;
+}
+
+.preview-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+    border-radius: 1em;
+}
+/* End Images */
+
+/* Text */
+.preview-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 25%;
+    margin: 0 1rem;
+    color: white;
+}
+
+.preview-text h1{
+    color: var(--logo-color);
+}
+
+/* End Text */
